@@ -46,7 +46,7 @@ function App() {
   }, [city]);
 
   return (
-    <div className=" 2xl:container mx-auto grid grid-cols-1 lg:grid-cols-4  gap-y-3  bg-[#100E1C] text-[#E3E8E9]">
+    <div className=" 2xl:container mx-auto grid grid-cols-1 lg:grid-cols-4  gap-y-3  bg-[#100E1C] text-[#E3E8E9] font-ubuntu">
       <div className=" px-2 py-4 lg:bg-[#1E213B] bg-[#100E1C]">
         <form
           onSubmit={(e) => {
